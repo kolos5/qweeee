@@ -1,0 +1,215 @@
+*{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    background-color: #2b2b2b;
+    text-decoration: none;
+}
+
+table {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    empty-cells: inherit;
+    width: 260px;
+    height: 200px;
+    display: inline-block;
+ }
+th{
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 30px 10px;
+}
+td{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 10px;
+}
+.siv{
+    border: solid #fff 1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    width: 262px;
+    height: 200px;
+    display: inline-block;
+}
+.siv1{
+    position: absolute;
+    border: solid #fff 1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    width: 130px;
+    height: 80px;
+}
+.siv2{
+    display: inline-block;
+    border: solid #fff 1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    width: 130px;
+    height: 80px;
+}
+.cal{
+    padding-top: 10%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 60%;
+    margin: auto;
+}
+.cal2{
+    padding-top: 10%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 98%;
+    margin: auto;
+}
+.back{
+    padding: 50px;
+    text-align: right;
+}
+
+.cal a{
+    border: solid #fff 4px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+.cal2 a{
+   
+}
+.asd{
+    background-color: #48ff00;
+}
+.pis{
+    
+    text-align: center;
+    font-size: 20px;
+}
+.pisss{
+
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: solid #fff 3px;
+}
+.pisss p{
+    padding: 10px;
+    margin: 10px;
+    border: solid #fff 1px;
+}
+#lastname{
+    background-color: #999;
+}
+a:hover {
+    background-color: #444;
+    transition: 2s;
+    transition-duration: 1s;
+
+}
+@media (max-width: 480px) {
+.pisss{
+    width: 80%;
+}
+.cal{
+    width: 90%;
+}
+
+}
+
+/* Контейнер подсказок */
+.tooltip {
+
+
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* Если вы хотите, чтобы точки под перемещаемым текстом */
+  }
+  
+  /* Текст подсказки */
+  .tooltip .tooltiptext {
+    opacity: 1;
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 6px;
+  
+    /* Расположите текст подсказки */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Исчезают в подсказке */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Подсказка стрелка */
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Отображение текста подсказки при наведении курсора мыши на контейнер подсказки */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 70%;
+  }
+  .day1{
+    border: solid #fff 1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 262px;
+    height: 200px;
+    display: inline-block;
+}
+.daylyandpriceMain{
+
+}
+.daylyandprice{
+    padding: 20px 10px 20px 10px;
+    border: solid #fff 1px;
+    display: inline-block;
+}
+.namejobsMain{
+   
+}
+.namejobs{
+    padding: 10px 20px 10px 20px;
+    border: solid #fff 1px;
+    display: inline-block;
+}
